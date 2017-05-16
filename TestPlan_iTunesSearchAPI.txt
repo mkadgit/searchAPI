@@ -1,0 +1,34 @@
+Test Plan and Test Cases for iTunes Search API
+
+a) Use DataProvider to cover all combinations of values for term, country, media, limit 
+b) Test cases for iTunes search service on a MINIMUM should include the following and validate the Response Code and Results Count
+
+1. Search null parameter
+
+   //only Term
+2. Search empty Term parameter
+3. Search invalid characters for Term parameter
+4. Search valid Term parameter
+
+   //only Country
+5. Search empty Country parameter
+6. Search invalid characters for Country parameter
+7. Search valid Country parameter
+
+   //only Media   
+8. Search empty Media parameter
+9. Search invalid characters for Media parameter
+10. Search valid Media parameter
+
+   //only Limit   
+8. Search empty Limit parameter
+9. Search invalid characters for Limit parameter
+10. Search valid Limit parameter
+
+   //Combination of Term, Country, Media, Limit parameter
+11. Search empty values for Term, Country, Media, Limit parameters
+12. Search invalid characters for Term, Country, Media, Limit
+13. Search valid values for Term, Country, Media, Limit parameters
+
+   //Many more variations/combinations of term, country, media, and count can be tested similar to above cases
+
